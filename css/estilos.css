@@ -1,0 +1,114 @@
+/*
+git add *
+git commit -m "First commit"
+git remote add origin https://github.com/tomyjuly/CV-Proyecto-Ticmas.git
+git push --set-upstream origin main
+body {
+    background-color: rgb(91, 77, 151);
+    }
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #4ed334d5;
+    }
+  }
+  */
+.barranav {
+    background: #0e2d52; 
+    color: aliceblue;
+    padding: 10px 5px 10px 10px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.barranav:hover{
+    background: rgb(116, 165, 238);
+}
+nav{
+    background: rgb(235, 238, 232);
+    padding: 30 px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.clasefotocv {
+    /*margin: 30px 10px 20px 50px;
+    float: left;*/
+    border-radius: 50px;
+    border: 2px solid rgb(56, 180, 230);
+    margin-top: 5px;
+    margin-bottom: 15px;   
+}
+.clasetituloppal {
+    border: none;
+    font-weight: bold;
+    color: rgb(10, 73, 131);
+    font-size: 70px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 1px;
+    padding: 20px 20px 20px 0px;  
+    /*margin: 30px 10px 20px 80px;*/
+    /*padding: 20px 20px 20px 30px;
+    /*text-align: center;*/
+    /*float: center;
+    font-display: center;*/
+}
+
+ul{
+    text-align: left;
+    list-style-type: circle;
+    list-style-position: outside;
+}
+
+section {
+    width: auto;
+    height: auto;
+    border: none; /*3px solid rgb(56, 180, 230);*/
+    margin: 20px 0px 15px 0px;
+    padding: 5px 0px 5px 0px;
+    overflow: hidden;
+	/*width: 95%;*/
+    background-color: rgb(235, 238, 232);
+    
+}
+
+.dp, .fa, .fc, .ep, .lang, .hp, .odi, .ref {
+
+    border: 3px solid rgb(56, 180, 230);
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(207, 228, 228);
+    /*margin: 0px 1px 20px 1px;
+    padding: 1px 1px 20px 1px;*/
+
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    justify-content: center;
+    border: none;
+    margin: 0px 5px 0px 5px;
+    padding: 1px 10px 10px 10px;
+    font-weight: bold;
+    color: rgb(10, 73, 131);
+    text-align: justify;
+    text-decoration: underline;
+}
+
+h3{
+    border: none;
+    margin: 1px 5px 1px 1px;
+    padding: 1px 10px 10px 10px;
+    text-decoration: underline;
+    text-align: left;
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    font-size: small;
+    padding: 0px 10px 0px 10px;
+    margin: 0px 5px 0px 5px;
+    line-height: 1.4;
+}
+
